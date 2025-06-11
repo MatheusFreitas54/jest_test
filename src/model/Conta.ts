@@ -1,11 +1,12 @@
 import { NegocioErro } from "../error/NegocioErro";
+import { NumeroConta } from "./NumeroConta";
 
 export class Conta {
-    private _numero: string;
+    private _numeroConta: NumeroConta;
     private _saldo: number;
 
-    public constructor(numero: string, saldo: number){
-        this._numero = numero;
+    public constructor(numero: string, saldo: number) {
+        this._numeroConta = new NumeroConta(numero);
         this._saldo = saldo;
     }
 
