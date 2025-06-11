@@ -1,3 +1,5 @@
+import { NegocioErro } from "../error/NegocioErro";
+
 export class Conta {
     private _numero: string;
     private _saldo: number;
@@ -8,7 +10,10 @@ export class Conta {
     }
 
     public sacar(valor: number): void {
-        this._saldo -= valor;
+    if(valor == 0)
+        throw new NegocioErro("valor não pode ser igual ou menor que zero");
+
+    this._saldo -= valor;
     }
 
     public get saldo() : number {
