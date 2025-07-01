@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\application\TransferenciaServico.test.ts">
-    <testCase name="Transferência Serviço transferir com sucesso" duration="4"/>
-    <testCase name="Transferência Serviço conta de origem não encontrada" duration="1"/>
-    <testCase name="Transferência Serviço conta de destino não encontrada" duration="0"/>
-  </file>
-  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\model\conta.test.ts">
-    <testCase name="Conta sacar com sucesso" duration="1"/>
-    <testCase name="Conta depositar com sucesso" duration="1"/>
-    <testCase name="Conta sacar com valor zerado" duration="15"/>
-    <testCase name="Conta depositar com valor zerado" duration="1"/>
-    <testCase name="Conta sacar com valor negativo" duration="1"/>
-    <testCase name="Conta depositar com valor negativo" duration="1"/>
-    <testCase name="Conta sacar valor acima do saldo" duration="1"/>
-    <testCase name="Conta conta com seis dígitos" duration="0"/>
-    <testCase name="Conta conta com cinco dígitos" duration="2"/>
-    <testCase name="Conta conta com sete dígitos" duration="1"/>
-    <testCase name="Conta conta com valor que não sejam digitos" duration="1"/>
-  </file>
-  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\application\TransferenciaServicoMock.test.ts">
-    <testCase name="Transferencia serviço mock transferir com sucesso" duration="6"/>
-    <testCase name="Transferencia serviço mock conta de origem não encontrada" duration="2"/>
-    <testCase name="Transferencia serviço mock conta de destino não encontrada" duration="1"/>
+  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\model\Recibo.test.ts">
+    <testCase name="Recibo criar com sucesso" duration="14"/>
+    <testCase name="Recibo criar recibos diferentes" duration="1"/>
   </file>
   <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\model\service\TransferenciaValor.test.ts">
-    <testCase name="Transferência Valor transferencia de valor entre contas com sucesso" duration="2"/>
+    <testCase name="Transferência Valor transferencia de valor entre contas com sucesso" duration="17"/>
   </file>
-  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\model\Recibo.test.ts">
-    <testCase name="Recibo criar com sucesso" duration="1"/>
+  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\model\Conta.test.ts">
+    <testCase name="Conta sacar com sucesso" duration="17"/>
+    <testCase name="Conta depositar com sucesso" duration="3"/>
+    <testCase name="Conta sacar com valor zerado" duration="23"/>
+    <testCase name="Conta depositar com valor zerado" duration="2"/>
+    <testCase name="Conta sacar com valor negativo" duration="3"/>
+    <testCase name="Conta depositar com valor negativo" duration="2"/>
+    <testCase name="Conta sacar valor acima do saldo" duration="2"/>
+    <testCase name="Conta conta com seis dígitos" duration="2"/>
+    <testCase name="Conta conta com cinco dígitos" duration="3"/>
+    <testCase name="Conta conta com sete dígitos" duration="3"/>
+    <testCase name="Conta conta com valor que não sejam digitos" duration="2"/>
+    <testCase name="Conta sacar todo o saldo" duration="1"/>
+  </file>
+  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\application\TransferenciaServico.test.ts">
+    <testCase name="Transferência Serviço transferir com sucesso" duration="18"/>
+    <testCase name="Transferência Serviço conta de origem não encontrada" duration="2"/>
+    <testCase name="Transferência Serviço conta de destino não encontrada" duration="1"/>
+  </file>
+  <file path="C:\Users\mathe\OneDrive\Desktop\bank\__test__\application\TransferenciaServicoMock.test.ts">
+    <testCase name="Transferencia serviço mock transferir com sucesso" duration="29"/>
+    <testCase name="Transferencia serviço mock conta de origem não encontrada" duration="2"/>
+    <testCase name="Transferencia serviço mock conta de destino não encontrada" duration="2"/>
   </file>
 </testExecutions>

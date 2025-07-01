@@ -57,6 +57,12 @@ describe("Conta", () => {
     test("conta com valor que não sejam digitos", async () => {
         expect(() => { new NumeroConta("abc123"); }).toThrow("número de conta inválida");
     });
+
+    test("sacar todo o saldo", async () => {	
+        const conta: Conta = criarConta();	
+        conta.sacar(5000.0);	
+        expect(conta.saldo).toBe(0);	
+    });	
 });
 
 function criarConta(): Conta {
